@@ -1,170 +1,109 @@
-<h1 align="center">
-    <span>Open-Assistant</span>
-  <img width="auto" height="50px" src="https://github.com/LAION-AI/Open-Assistant/blob/main/assets/logo_crop.png"/>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 align="center" tabindex="-1" dir="auto"><a id="user-content-----open-assistant--" class="anchor" aria-hidden="true" tabindex="-1" href="#----open-assistant--"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开助手</font></font></span>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/LAION-AI/Open-Assistant/blob/main/assets/logo_crop.png"><img width="auto" height="50px" src="https://github.com/LAION-AI/Open-Assistant/raw/main/assets/logo_crop.png" style="max-width: 100%;"></a>
 </h1>
-
 <blockquote>
-<p>:memo: <strong>NOTE</strong>: OpenAssistant is completed, and the project is now finished. Thank you to everyone who contributed! Check out our <a href="https://projects.laion.ai/Open-Assistant/blog/2023/10/25/open-assistant-is-completed">blog post</a> for more information. The final published oasst2 dataset can be found on HuggingFace at <a href="https://huggingface.co/datasets/OpenAssistant/oasst2">OpenAssistant/oasst2</a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📝</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：OpenAssistant 已完成，项目现已完成。</font><font style="vertical-align: inherit;">感谢所有贡献者！</font><font style="vertical-align: inherit;">请查看我们的</font></font><a href="https://projects.laion.ai/Open-Assistant/blog/2023/10/25/open-assistant-is-completed" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更多信息。</font><font style="vertical-align: inherit;">最终发布的 oasst2 数据集可以在 HuggingFace 上找到</font></font><a href="https://huggingface.co/datasets/OpenAssistant/oasst2" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAssistant/oasst2</font></font></a></p>
 </blockquote>
-
-<div align="center">
-
-<a href="https://github.com/LAION-AI/Open-Assistant/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/LAION-AI/Open-Assistant?style=social)</a>
-<a href="https://laion-ai.github.io/Open-Assistant/">![Docs](https://img.shields.io/badge/docs-laion--ai.github.io%2FOpen--Assistant%2F-green)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/build-frontend.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/build-frontend.yaml?label=build-frontend)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/build-postgres.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/build-postgres.yaml?label=build-postgres)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/pre-commit.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/pre-commit.yaml?label=pre-commit)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/test-api-contract.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/test-api-contract.yaml?label=tests-api)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/test-e2e.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/test-e2e.yaml?label=tests-web)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/deploy-docs-site.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/deploy-docs-site.yaml?label=deploy-docs)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/production-deploy.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/production-deploy.yaml?label=deploy-production)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/release.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/release.yaml?label=deploy-release)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/releases">![GitHub release (latest by date)](https://img.shields.io/github/v/release/LAION-AI/Open-Assistant)</a>
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
-
+<div align="center" dir="auto">
+<p dir="auto"><a href="https://github.com/LAION-AI/Open-Assistant/stargazers"><img src="https://camo.githubusercontent.com/509f9671c3d6f3bc9d336d8d1cef1fb68f7de568adf96f18b5b27ac0c6f516e2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4c41494f4e2d41492f4f70656e2d417373697374616e743f7374796c653d736f6369616c" alt="GitHub 存储库星星" data-canonical-src="https://img.shields.io/github/stars/LAION-AI/Open-Assistant?style=social" style="max-width: 100%;"></a>
+<a href="https://laion-ai.github.io/Open-Assistant/" rel="nofollow"><img src="https://camo.githubusercontent.com/5758097ee310855b93a26229eba54873da430348bcdfe16d1294a7563e889504/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6c61696f6e2d2d61692e6769746875622e696f2532464f70656e2d2d417373697374616e742532462d677265656e" alt="文档" data-canonical-src="https://img.shields.io/badge/docs-laion--ai.github.io%2FOpen--Assistant%2F-green" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/build-frontend.yaml"><img src="https://camo.githubusercontent.com/a319b3dbf914b284241067aa18ea59a0505ba19508acf61220ae5d870b016e9e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f6275696c642d66726f6e74656e642e79616d6c3f6c6162656c3d6275696c642d66726f6e74656e64" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/build-frontend.yaml?label=build-frontend" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/build-postgres.yaml"><img src="https://camo.githubusercontent.com/de8347384fae47b805c59cd19e94be680ce59a3004bbdcaaf40df7ac114eee24/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f6275696c642d706f7374677265732e79616d6c3f6c6162656c3d6275696c642d706f737467726573" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/build-postgres.yaml?label=build-postgres" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/pre-commit.yaml"><img src="https://camo.githubusercontent.com/d5a045ef1516ad0a0341de5cd93103b1c39895693865bec232d36fa64a0ed0bc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f7072652d636f6d6d69742e79616d6c3f6c6162656c3d7072652d636f6d6d6974" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/pre-commit.yaml?label=pre-commit" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/test-api-contract.yaml"><img src="https://camo.githubusercontent.com/ab5f0d05e13e714a4aab832e3b9edad3391d7ff738e82db42bea0b6b9d48269f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f746573742d6170692d636f6e74726163742e79616d6c3f6c6162656c3d74657374732d617069" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/test-api-contract.yaml?label=tests-api" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/test-e2e.yaml"><img src="https://camo.githubusercontent.com/77d57bf28376fa210a0e6f8637e978236e7b167c9125b6b0820880f73185e6fe/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f746573742d6532652e79616d6c3f6c6162656c3d74657374732d776562" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/test-e2e.yaml?label=tests-web" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/deploy-docs-site.yaml"><img src="https://camo.githubusercontent.com/9d4f86f85281742fd92f5541e69529e236165d5512f8ee16069b97c50b69e8d2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f6465706c6f792d646f63732d736974652e79616d6c3f6c6162656c3d6465706c6f792d646f6373" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/deploy-docs-site.yaml?label=deploy-docs" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/production-deploy.yaml"><img src="https://camo.githubusercontent.com/6ea207baee2b011ed6d198d1d7a30d0a679c90e00fb36bfffac9a96fb888412f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f70726f64756374696f6e2d6465706c6f792e79616d6c3f6c6162656c3d6465706c6f792d70726f64756374696f6e" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/production-deploy.yaml?label=deploy-production" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/release.yaml"><img src="https://camo.githubusercontent.com/bfb5b7c7e9817e947cf4c0c6fff2c7f8c1b62c9e1ef97683bb9d1935d0b10457/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4c41494f4e2d41492f4f70656e2d417373697374616e742f72656c656173652e79616d6c3f6c6162656c3d6465706c6f792d72656c65617365" alt="GitHub 工作流程状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/release.yaml?label=deploy-release" style="max-width: 100%;"></a>
+<a href="https://github.com/LAION-AI/Open-Assistant/releases"><img src="https://camo.githubusercontent.com/00dff587759736868663b9fdaea4cb28b64f58636d034c9e3382ebb829bd8afc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f4c41494f4e2d41492f4f70656e2d417373697374616e74" alt="GitHub 发布（按日期最新）" data-canonical-src="https://img.shields.io/github/v/release/LAION-AI/Open-Assistant" style="max-width: 100%;"></a>
+<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/README.md?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp" rel="nofollow"><img src="https://camo.githubusercontent.com/7a3f89171b307c45873a6b207eb7be950ec1063e835af0c6076f462d32c05340/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5472616e736c6174652d626c7565" alt="翻译" data-canonical-src="https://img.shields.io/badge/Translate-blue" style="max-width: 100%;"></a></p>
 </div>
-
-# Table of Contents
-
-- [What is Open Assistant?](#what-is-open-assistant)
-- [Useful Links](#useful-links)
-- [How To Try It Out](#how-to-try-it-out)
-- [The Vision](#the-vision)
-- [The Plan](#the-plan)
-- [How You Can Help](#how-you-can-help)
-
----
-
-## What is Open Assistant?
-
-<p align="center">
-Open Assistant is a project meant to give everyone access to a great chat based
-large language model.
-</p>
-
-We believe that by doing this we will create a revolution in innovation in
-language. In the same way that stable-diffusion helped the world make art and
-images in new ways we hope Open Assistant can help improve the world by
-improving language itself.
-
-# Useful Links
-
-- [Data Collection](https://open-assistant.io)
-
-- [Chat](https://open-assistant.io/chat)
-
-- [Project Documentation](https://projects.laion.ai/Open-Assistant/)
-
-## How To Try It Out
-
-### Chatting with the AI
-
-The chat frontend is now live [here](https://open-assistant.io/chat). Log in and
-start chatting! Please try to react with a thumbs up or down for the assistant's
-responses when chatting.
-
-### Contributing to Data Collection
-
-The data collection frontend is now live [here](https://open-assistant.io/). Log
-in and start taking on tasks! We want to collect a high volume of quality data.
-By submitting, ranking, and labelling model prompts and responses you will be
-directly helping to improve the capabilities of Open Assistant.
-
-### Running the Development Setup Locally (without chat)
-
-**You do not need to run the project locally unless you are contributing to the
-development process. The website link above will take you to the public website
-where you can use the data collection app and the chat.**
-
-If you would like to run the data collection app locally for development, you
-can set up an entire stack needed to run **Open-Assistant**, including the
-website, backend, and associated dependent services, with Docker.
-
-To start the demo, run this in the root directory of the repository (check
-[this FAQ](https://projects.laion.ai/Open-Assistant/docs/faq#docker-compose-instead-of-docker-compose)
-if you have problems):
-
-```sh
-docker compose --profile ci up --build --attach-dependencies
-```
-
-> **Note:** when running on MacOS with an M1 chip you have to use:
-> `DB_PLATFORM=linux/x86_64 docker compose ...`
-
-Then, navigate to `http://localhost:3000` (It may take some time to boot up) and
-interact with the website.
-
-> **Note:** If an issue occurs with the build, please head to the
-> [FAQ](https://projects.laion.ai/Open-Assistant/docs/faq) and check out the
-> entries about Docker.
-
-> **Note:** When logging in via email, navigate to `http://localhost:1080` to
-> get the magic email login link.
-
-> **Note:** If you would like to run this in a standardized development
-> environment (a
-> ["devcontainer"](https://code.visualstudio.com/docs/devcontainers/containers))
-> using
-> [vscode locally](https://code.visualstudio.com/docs/devcontainers/create-dev-container#_create-a-devcontainerjson-file)
-> or in a web browser using
-> [GitHub Codespaces](https://github.com/features/codespaces), you can use the
-> provided [`.devcontainer`](.devcontainer/) folder.
-
-### Running the Development Setup Locally for Chat
-
-**You do not need to run the project locally unless you are contributing to the
-development process. The website link above will take you to the public website
-where you can use the data collection app and the chat.**
-
-**Also note that the local setup is only for development and is not meant to be
-used as a local chatbot, unless you know what you are doing.**
-
-If you _do_ know what you are doing, then see the `inference` folder for getting
-the inference system up and running, or have a look at `--profile inference` in
-addition to `--profile ci` in the above command.
-
-## The Vision
-
-We are not going to stop at replicating ChatGPT. We want to build the assistant
-of the future, able to not only write email and cover letters, but do meaningful
-work, use APIs, dynamically research information, and much more, with the
-ability to be personalized and extended by anyone. And we want to do this in a
-way that is open and accessible, which means we must not only build a great
-assistant, but also make it small and efficient enough to run on consumer
-hardware.
-
-## The Plan
-
-##### We want to get to an initial MVP as fast as possible, by following the 3-steps outlined in the [InstructGPT paper](https://arxiv.org/abs/2203.02155)
-
-1. Collect high-quality human generated Instruction-Fulfillment samples
-   (prompt + response), goal >50k. We design a crowdsourced process to collect
-   and reviewed prompts. We do not want to train on
-   flooding/toxic/spam/junk/personal information data. We will have a
-   leaderboard to motivate the community that shows progress and the most active
-   users. Swag will be given to the top-contributors.
-2. For each of the collected prompts we will sample multiple completions.
-   Completions of one prompt will then be shown randomly to users to rank them
-   from best to worst. Again this should happen crowd-sourced, e.g. we need to
-   deal with unreliable potentially malicious users. At least multiple votes by
-   independent users have to be collected to measure the overall agreement. The
-   gathered ranking-data will be used to train a reward model.
-3. Now follows the RLHF training phase based on the prompts and the reward
-   model.
-
-We can then take the resulting model and continue with completion sampling step
-2 for a next iteration.
-
-### Slide Decks
-
-[Vision & Roadmap](https://docs.google.com/presentation/d/1n7IrAOVOqwdYgiYrXc8Sj0He8krn5MVZO_iLkCjTtu0/edit?usp=sharing)
-
-[Important Data Structures](https://docs.google.com/presentation/d/1iaX_nxasVWlvPiSNs0cllR9L_1neZq0RJxd6MFEalUY/edit?usp=sharing)
-
-## How You Can Help
-
-All open source projects begin with people like you. Open source is the belief
-that if we collaborate we can together gift our knowledge and technology to the
-world for the benefit of humanity.
-
-Check out our [contributing guide](CONTRIBUTING.md) to get started.
+<h1 tabindex="-1" dir="auto"><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" tabindex="-1" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></h1>
+<ul dir="auto">
+<li><a href="#what-is-open-assistant"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是开放助手？</font></font></a></li>
+<li><a href="#useful-links"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有用的链接</font></font></a></li>
+<li><a href="#how-to-try-it-out"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何尝试</font></font></a></li>
+<li><a href="#the-vision"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">愿景</font></font></a></li>
+<li><a href="#the-plan"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计划</font></font></a></li>
+<li><a href="#how-you-can-help"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以如何提供帮助</font></font></a></li>
+</ul>
+<hr>
+<h2 tabindex="-1" dir="auto"><a id="user-content-what-is-open-assistant" class="anchor" aria-hidden="true" tabindex="-1" href="#what-is-open-assistant"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是开放助手？</font></font></h2>
+<p align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+Open Assistant 是一个旨在让每个人都能访问基于聊天的大型语言模型的项目。
+</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们相信，通过这样做，我们将掀起一场语言创新革命。</font><font style="vertical-align: inherit;">就像稳定扩散帮助世界以新的方式创造艺术和图像一样，我们希望 Open Assistant 能够通过改进语言本身来帮助改善世界。</font></font></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-useful-links" class="anchor" aria-hidden="true" tabindex="-1" href="#useful-links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有用的链接</font></font></h1>
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="https://open-assistant.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据采集</font></font></a></p>
+</li>
+<li>
+<p dir="auto"><a href="https://open-assistant.io/chat" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天</font></font></a></p>
+</li>
+<li>
+<p dir="auto"><a href="https://projects.laion.ai/Open-Assistant/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目文档</font></font></a></p>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-how-to-try-it-out" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-try-it-out"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何尝试</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-chatting-with-the-ai" class="anchor" aria-hidden="true" tabindex="-1" href="#chatting-with-the-ai"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与AI聊天</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天前端现已上</font></font><a href="https://open-assistant.io/chat" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">线</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">登录并开始聊天！</font><font style="vertical-align: inherit;">聊天时，请尝试对助理的回复做出“竖起大拇指”或“竖起大拇指”的反应。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-contributing-to-data-collection" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing-to-data-collection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为数据收集做出贡献</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据收集前端现已上</font></font><a href="https://open-assistant.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">线</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">登录并开始接受任务！</font><font style="vertical-align: inherit;">我们希望收集大量高质量数据。</font><font style="vertical-align: inherit;">通过提交、排名和标记模型提示和响应，您将直接帮助提高 Open Assistant 的功能。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-running-the-development-setup-locally-without-chat" class="anchor" aria-hidden="true" tabindex="-1" href="#running-the-development-setup-locally-without-chat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在本地运行开发设置（无聊天）</font></font></h3>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您为开发过程做出贡献，否则您不需要在本地运行该项目。</font><font style="vertical-align: inherit;">上面的网站链接将带您进入公共网站，您可以在其中使用数据收集应用程序和聊天。</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想在本地运行数据收集应用程序进行开发，您可以使用 Docker 设置运行</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Open-Assistant</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所需的整个堆栈，包括网站、后端和相关的依赖服务。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要启动演示，请在存储库的根目录中运行它（
+</font><font style="vertical-align: inherit;">
+如果遇到问题，请检查</font></font><a href="https://projects.laion.ai/Open-Assistant/docs/faq#docker-compose-instead-of-docker-compose" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此常见问题解答）：</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker compose --profile ci up --build --attach-dependencies</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker compose --profile ci up --build --attach-dependencies" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当在带有 M1 芯片的 MacOS 上运行时，您必须使用：
+</font></font><code>DB_PLATFORM=linux/x86_64 docker compose ...</code></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，导航到</font></font><code>http://localhost:3000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（可能需要一些时间才能启动）并与该网站交互。</font></font></p>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果构建出现问题，请前往
+</font></font><a href="https://projects.laion.ai/Open-Assistant/docs/faq" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并查看有关 Docker 的条目。</font></font></p>
+</blockquote>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过电子邮件登录时，导航至</font></font><code>http://localhost:1080</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取神奇电子邮件登录链接。</font></font></p>
+</blockquote>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想在
+</font><a href="https://code.visualstudio.com/docs/devcontainers/create-dev-container#_create-a-devcontainerjson-file" rel="nofollow"><font style="vertical-align: inherit;">本地使用 vscode的标准化开发环境（ </font></a></font><a href="https://code.visualstudio.com/docs/devcontainers/containers" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“devcontainer”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）
+或使用</font><a href="https://github.com/features/codespaces"><font style="vertical-align: inherit;">GitHub Codespaces</font></a><font style="vertical-align: inherit;">
+在 Web 浏览器中
+运行此程序</font><font style="vertical-align: inherit;">，则可以使用提供的</font><font style="vertical-align: inherit;">文件夹。</font></font><a href="https://code.visualstudio.com/docs/devcontainers/create-dev-container#_create-a-devcontainerjson-file" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/features/codespaces"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="/LAION-AI/Open-Assistant/blob/main/.devcontainer"><code>.devcontainer</code></a><font style="vertical-align: inherit;"></font></p>
+</blockquote>
+<h3 tabindex="-1" dir="auto"><a id="user-content-running-the-development-setup-locally-for-chat" class="anchor" aria-hidden="true" tabindex="-1" href="#running-the-development-setup-locally-for-chat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在本地运行聊天的开发设置</font></font></h3>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非您为开发过程做出贡献，否则您不需要在本地运行该项目。</font><font style="vertical-align: inherit;">上面的网站链接将带您进入公共网站，您可以在其中使用数据收集应用程序和聊天。</font></font></strong></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请注意，本地设置仅用于开发，并不意味着用作本地聊天机器人，除非您知道自己在做什么。</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确实</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知道自己在做什么，请查看</font></font><code>inference</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于启动并运行推理系统的文件夹，或者查看</font><font style="vertical-align: inherit;">上述命令中的</font></font><code>--profile inference</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">附加内容。</font></font><code>--profile ci</code><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-the-vision" class="anchor" aria-hidden="true" tabindex="-1" href="#the-vision"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">愿景</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们不会止步于复制 ChatGPT。</font><font style="vertical-align: inherit;">我们希望打造未来的助手，不仅能够编写电子邮件和求职信，还能做有意义的工作、使用 API、动态研究信息等等，并且能够由任何人进行个性化和扩展。</font><font style="vertical-align: inherit;">我们希望以开放且可访问的方式做到这一点，这意味着我们不仅必须构建一个出色的助手，而且还要使其足够小且高效，以便在消费类硬件上运行。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-the-plan" class="anchor" aria-hidden="true" tabindex="-1" href="#the-plan"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计划</font></font></h2>
+<h5 tabindex="-1" dir="auto"><a id="user-content-we-want-to-get-to-an-initial-mvp-as-fast-as-possible-by-following-the-3-steps-outlined-in-the-instructgpt-paper" class="anchor" aria-hidden="true" tabindex="-1" href="#we-want-to-get-to-an-initial-mvp-as-fast-as-possible-by-following-the-3-steps-outlined-in-the-instructgpt-paper"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><a href="https://arxiv.org/abs/2203.02155" rel="nofollow"><font style="vertical-align: inherit;">我们希望按照InstructGPT 论文</font></a><font style="vertical-align: inherit;">中概述的 3 个步骤尽快获得初始 MVP</font></font><a href="https://arxiv.org/abs/2203.02155" rel="nofollow"><font style="vertical-align: inherit;"></font></a></h5>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">收集高质量的人工生成的指令履行样本（提示+响应），目标&gt; 50k。</font><font style="vertical-align: inherit;">我们设计了一个众包流程来收集和审查提示。</font><font style="vertical-align: inherit;">我们不想对洪水/有毒/垃圾邮件/垃圾/个人信息数据进行培训。</font><font style="vertical-align: inherit;">我们将有一个排行榜来激励社区，显示进步和最活跃的用户。</font><font style="vertical-align: inherit;">贡献者将获得奖励。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于每个收集的提示，我们将对多个完成进行采样。</font><font style="vertical-align: inherit;">然后，将随机向用户显示一个提示的完成情况，以从最好到最差进行排名。</font><font style="vertical-align: inherit;">同样，这应该发生在众包中，例如我们需要处理不可靠的潜在恶意用户。</font><font style="vertical-align: inherit;">至少需要收集独立用户的多次投票来衡量总体一致性。</font><font style="vertical-align: inherit;">收集的排名数据将用于训练奖励模型。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在进入基于提示和奖励模型的 RLHF 训练阶段。</font></font></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，我们可以采用生成的模型并继续完成采样步骤 2 以进行下一次迭代。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-slide-decks" class="anchor" aria-hidden="true" tabindex="-1" href="#slide-decks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">幻灯片</font></font></h3>
+<p dir="auto"><a href="https://docs.google.com/presentation/d/1n7IrAOVOqwdYgiYrXc8Sj0He8krn5MVZO_iLkCjTtu0/edit?usp=sharing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">愿景与路线图</font></font></a></p>
+<p dir="auto"><a href="https://docs.google.com/presentation/d/1iaX_nxasVWlvPiSNs0cllR9L_1neZq0RJxd6MFEalUY/edit?usp=sharing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要的数据结构</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-how-you-can-help" class="anchor" aria-hidden="true" tabindex="-1" href="#how-you-can-help"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以如何提供帮助</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有开源项目都是从像您这样的人开始的。</font><font style="vertical-align: inherit;">开源相信，如果我们合作，我们就可以共同向世界贡献我们的知识和技术，造福人类。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们的</font></font><a href="/LAION-AI/Open-Assistant/blob/main/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以开始使用。</font></font></p>
+</article></div>
